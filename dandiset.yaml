@@ -8,23 +8,35 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique: []
+  numberOfBytes: 1186908720
+  numberOfFiles: 1
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
+    name: Homo sapiens - Human
+    schemaKey: SpeciesType
+  variableMeasured: []
 citation: EEG Anesthesia Dataset (2025). (Version draft) [Data set]. DANDI Archive.
   https://dandiarchive.org/dandiset/001285/draft
 contributor:
 - email: aliyousefi@uh.edu
   identifier: 0009-0006-8777-8262
   includeInCitation: false
-  name: Ali Yousefi
+  name: Yousefi, Ali
   roleName:
-  - dcite:DataCurator
   - dcite:ContactPerson
-  - dcite:Investigation
+  - dcite:DataCurator
+  - dcite:DataManager
   schemaKey: Person
-  url: https://www.bme.uh.edu/faculty/yousefi-ali
 dateCreated: '2025-01-06T23:15:22.388632+00:00'
+datePublished: '2025-01-10T21:25:11.140424+00:00'
 description: "The experimental protocol for the dataset is described in detail in
   Purdon PL, Pierce ET, Mukamel EA, et al. Electroencephalogram signatures of loss
   and recovery of consciousness from propofol. Proc Natl Acad Sci U S A. 2013;110(12):E1142-E1151,
@@ -55,6 +67,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001285/versions/draft/assets/
 name: EEG Anesthesia Dataset
 protocol: []
+publishedBy:
+  endDate: '2025-01-10T21:25:11.140424+00:00'
+  id: urn:uuid:75a3ef06-87bd-4ed7-9be8-c10e978e5b83
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2025-01-10T21:25:11.140424+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:a8726cee-0d8b-432c-9490-971f789bba17
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
