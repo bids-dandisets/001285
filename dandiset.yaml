@@ -11,17 +11,17 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Yousefi, Ali (2025) EEG Anesthesia Dataset (Version draft) [Data set]. DANDI
-  Archive. https://dandiarchive.org/dandiset/001285/draft
+citation: EEG Anesthesia Dataset (2025). (Version draft) [Data set]. DANDI Archive.
+  https://dandiarchive.org/dandiset/001285/draft
 contributor:
-- awardNumber: 'R01-MH071847 '
-  email: aliyousefi@uh.edu
+- email: aliyousefi@uh.edu
   identifier: 0009-0006-8777-8262
-  includeInCitation: true
-  name: Yousefi, Ali
+  includeInCitation: false
+  name: Ali Yousefi
   roleName:
   - dcite:DataCurator
   - dcite:ContactPerson
+  - dcite:Investigation
   schemaKey: Person
   url: https://www.bme.uh.edu/faculty/yousefi-ali
 dateCreated: '2025-01-06T23:15:22.388632+00:00'
@@ -47,7 +47,8 @@ description: "The experimental protocol for the dataset is described in detail i
 ethicsApproval: []
 id: DANDI:001285/draft
 identifier: DANDI:001285
-keywords: []
+keywords:
+- Anesthesia
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
